@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Users, Heart, Star } from "lucide-react";
+import { Users, Heart, Star, Calendar } from "lucide-react";
 
 const AboutSection = () => (
   <section className="py-24 px-6">
@@ -7,16 +7,18 @@ const AboutSection = () => (
       <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Who We Are</h2>
         <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-12">
-          Bhagath Singh Youth Association is a dedicated group of young individuals committed to community service,
-          cultural celebrations, and keeping the spirit of unity alive. From grand Ganesh Chaturthi celebrations
-          to annadanam for the needy, we serve with heart and pride.
+          Bhagath Singh Youth Association is a passionate group of young devotees who organize grand
+          Ganesh Chaturthi celebrations every year. From the joyful Aagman procession to the devotional
+          Nimarjanam, we bring the community together through faith, seva, and festivity. Our Annadanam
+          serves thousands of devotees with love during the festival.
         </p>
       </motion.div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
         {[
-          { icon: Users, label: "Active Members", value: "50+" },
-          { icon: Heart, label: "Years of Service", value: "10+" },
-          { icon: Star, label: "Events Per Year", value: "15+" },
+          { icon: Users, label: "Youth Members", value: "50+" },
+          { icon: Calendar, label: "Years of Celebrations", value: "10+" },
+          { icon: Heart, label: "Annadanam Meals Served", value: "5000+" },
+          { icon: Star, label: "Days of Festival", value: "9" },
         ].map((stat, i) => (
           <motion.div
             key={stat.label}

@@ -9,16 +9,17 @@ const FinalCTA = () => (
       viewport={{ once: true }}
       className="max-w-3xl mx-auto text-center"
     >
-      <h2 className="text-4xl md:text-5xl font-bold mb-6">Join Us This Year!</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">🙏 Ganpati Bappa Morya!</h2>
       <p className="text-lg text-white/80 mb-10">
-        Be a part of our celebrations, community service, and the vibrant spirit of Bhagath Singh Youth Association.
+        Join us this Ganesh Chaturthi! Be a part of the celebrations, volunteer for Annadanam,
+        and experience the divine energy of our community.
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
         <Button size="lg" className="bg-navy text-white hover:bg-navy/90 rounded-full px-8 font-semibold" asChild>
           <a href="#location">Get in Touch</a>
         </Button>
         <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-8" asChild>
-          <a href="#celebrations">View Events</a>
+          <a href="#celebrations">View Celebrations</a>
         </Button>
       </div>
     </motion.div>
