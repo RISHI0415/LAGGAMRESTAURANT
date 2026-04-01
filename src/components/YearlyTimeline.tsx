@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar } from "lucide-react";
+
 
 const years = [
   { year: "2018", highlight: "Association Founded" },
