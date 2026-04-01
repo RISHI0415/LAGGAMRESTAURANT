@@ -1,15 +1,14 @@
 import { motion } from "framer-motion";
 
-
 const years = [
-  { year: "2018", highlight: "Association Founded" },
-  { year: "2019", highlight: "First Grand Ganesh Chaturthi" },
-  { year: "2020", highlight: "Community Support During COVID" },
-  { year: "2021", highlight: "Expanded Annadanam Program" },
-  { year: "2022", highlight: "50+ Active Members Milestone" },
-  { year: "2023", highlight: "Biggest Celebration Yet" },
-  { year: "2024", highlight: "Cultural Programs & Youth Rally" },
-  { year: "2025", highlight: "Continuing the Legacy" },
+  { year: "2018", highlight: "Association founded, first Ganesh Sthapana" },
+  { year: "2019", highlight: "Grand procession with 1000+ devotees" },
+  { year: "2020", highlight: "Eco-friendly Ganesh celebration during COVID" },
+  { year: "2021", highlight: "Started Annadanam — served 2000+ meals" },
+  { year: "2022", highlight: "50+ youth members joined the association" },
+  { year: "2023", highlight: "Biggest celebration — 9-day cultural programs" },
+  { year: "2024", highlight: "5000+ Annadanam meals, grand Nimarjanam rally" },
+  { year: "2025", highlight: "Continuing the legacy of devotion & service" },
 ];
 
 const YearlyTimeline = () => (
@@ -21,7 +20,7 @@ const YearlyTimeline = () => (
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-bold text-center mb-16"
       >
-        Our Journey — Each Year
+        Our Ganesh Utsav Journey
       </motion.h2>
       <div className="relative">
         <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-saffron/30" />

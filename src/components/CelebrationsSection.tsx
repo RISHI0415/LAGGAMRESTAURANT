@@ -6,23 +6,23 @@ import annadanamImg from "@/assets/annadanam.jpg";
 
 const events = [
   {
-    title: "Aagman",
-    desc: "The grand welcome procession of Lord Ganesh with music, dance, and devotion through the streets.",
+    title: "🎉 Aagman (Sthapana)",
+    desc: "The grand welcome of Lord Ganesh! A vibrant procession with drums, music, dance, and decorated chariots through the streets — the most exciting day of the festival.",
     img: aagmanImg,
   },
   {
-    title: "Celebrations",
-    desc: "Cultural programs, stage performances, and community gatherings that bring everyone together.",
+    title: "🎭 Cultural Celebrations",
+    desc: "Nine days filled with cultural programs, stage performances, devotional singing, and community gatherings that unite the entire neighbourhood.",
     img: celebrationsImg,
   },
   {
-    title: "Annadanam",
-    desc: "Free food distribution to the community — serving thousands with love and devotion every year.",
+    title: "🍛 Annadanam (Free Food)",
+    desc: "Serving thousands of devotees and community members with free meals during the festival. Our youth volunteers cook and serve with love and devotion.",
     img: annadanamImg,
   },
   {
-    title: "Nimarjanam",
-    desc: "The immersion ceremony — a beautiful farewell procession to the river with prayers and celebrations.",
+    title: "🌊 Nimarjanam (Visarjan)",
+    desc: "The emotional farewell procession of Lord Ganesh to the river for immersion. A grand send-off with music, prayers, and 'Ganpati Bappa Morya' chants.",
     img: nimarjanamImg,
   },
 ];
@@ -36,10 +36,10 @@ const CelebrationsSection = () => (
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-bold text-center mb-4"
       >
-        Our Celebrations
+        Ganesh Utsav Celebrations
       </motion.h2>
       <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
-        Every year we celebrate with full spirit — from Aagman to Nimarjanam
+        From the grand Aagman to the devotional Nimarjanam — 9 days of pure celebration
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {events.map((event, i) => (
@@ -49,7 +49,7 @@ const CelebrationsSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="rounded-2xl overflow-hidden bg-background shadow-sm hover:shadow-lg transition-shadow group"
+            className="rounded-2xl overflow-hidden bg-background shadow-sm hover:shadow-lg transition-shadow group border border-border"
           >
             <div className="aspect-video overflow-hidden">
               <img
