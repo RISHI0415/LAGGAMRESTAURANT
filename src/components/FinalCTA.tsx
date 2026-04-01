@@ -2,23 +2,23 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => (
-  <section className="py-24 px-6 dark-section bg-primary text-primary-foreground">
+  <section className="py-24 px-6 bg-saffron text-white">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       className="max-w-3xl mx-auto text-center"
     >
-      <h2 className="text-4xl md:text-5xl font-bold mb-6">Hungry Yet?</h2>
-      <p className="text-lg text-primary-foreground/70 mb-10">
-        Come experience food that delights your taste buds and ambiance that lifts your mood.
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">Join Us This Year!</h2>
+      <p className="text-lg text-white/80 mb-10">
+        Be a part of our celebrations, community service, and the vibrant spirit of Bhagath Singh Youth Association.
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <Button variant="hero" size="lg" asChild>
-          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Visit Now</a>
+        <Button size="lg" className="bg-navy text-white hover:bg-navy/90 rounded-full px-8 font-semibold" asChild>
+          <a href="#location">Get in Touch</a>
         </Button>
-        <Button variant="heroOutline" size="lg" className="text-primary-foreground border-primary-foreground/40 hover:bg-primary-foreground/10" asChild>
-          <a href="tel:+91XXXXXXXXXX">Contact Us</a>
+        <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-8" asChild>
+          <a href="#celebrations">View Events</a>
         </Button>
       </div>
     </motion.div>

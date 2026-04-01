@@ -12,9 +12,8 @@ const buttonVariants = cva(
         outline: "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gold text-gold-foreground font-semibold shadow-lg hover:bg-gold/90 rounded-full px-8",
-        heroOutline: "border-2 border-gold text-foreground font-semibold hover:bg-gold/10 rounded-full px-8",
-        gold: "bg-gold text-gold-foreground font-semibold hover:bg-gold/90",
+        hero: "bg-saffron text-white font-semibold shadow-lg hover:bg-saffron/90 rounded-full px-8",
+        heroOutline: "border-2 border-white text-white font-semibold hover:bg-white/10 rounded-full px-8",
       },
       size: {
         default: "h-9 px-4 py-2",

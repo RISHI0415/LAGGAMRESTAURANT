@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const LocationSection = () => (
-  <section className="py-24 px-6">
+  <section id="location" className="py-24 px-6">
     <div className="max-w-5xl mx-auto">
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
@@ -11,33 +11,26 @@ const LocationSection = () => (
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-bold text-center mb-16"
       >
-        Visit Us Today
+        Our Location
       </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-6">
           <div className="flex items-start gap-4">
-            <MapPin className="w-6 h-6 text-gold mt-1 shrink-0" />
+            <MapPin className="w-6 h-6 text-saffron mt-1 shrink-0" />
             <div>
               <h3 className="font-bold mb-1">Address</h3>
-              <p className="text-muted-foreground">Nagarjuna Sagar Rd, Hastinapuram, Hyderabad, Telangana</p>
+              <p className="text-muted-foreground">Hyderabad, Telangana, India</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <Phone className="w-6 h-6 text-gold mt-1 shrink-0" />
+            <Phone className="w-6 h-6 text-saffron mt-1 shrink-0" />
             <div>
-              <h3 className="font-bold mb-1">Phone</h3>
+              <h3 className="font-bold mb-1">Contact</h3>
               <p className="text-muted-foreground">+91 XXXXX XXXXX</p>
             </div>
           </div>
-          <div className="flex items-start gap-4">
-            <Clock className="w-6 h-6 text-gold mt-1 shrink-0" />
-            <div>
-              <h3 className="font-bold mb-1">Working Hours</h3>
-              <p className="text-muted-foreground">Open Daily · Closes at 11:30 PM</p>
-            </div>
-          </div>
           <div className="flex gap-4 pt-4">
-            <Button variant="gold" size="lg" asChild>
+            <Button variant="hero" size="lg" asChild>
               <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Get Directions</a>
             </Button>
             <Button variant="outline" size="lg" asChild>
@@ -53,7 +46,7 @@ const LocationSection = () => (
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            title="Laggam Restaurant Location"
+            title="BSYA Location"
           />
         </div>
       </div>
